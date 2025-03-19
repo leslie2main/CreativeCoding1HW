@@ -9,7 +9,8 @@
         
         
         
-        window.alert("Hello there! Please enter your information!");      
+        window.alert("Hello there! Please enter your information!"); 
+         
     }
 </script>
 
@@ -22,6 +23,26 @@
         <input type="text" value=" " id="Name">Name<br>
         <input type="text" value=" " id="Email">Email<br>
         <input type="checkbox" value="Terms of Agreement">Terms of Agreement<br>
+
+       
+        <button onclick="validateInput()">Validate</button>
+    
+        <script>
+          function validateInput() {
+            const textbox = document.getElementById('myTextbox');
+            if (textbox.value === '') {
+              textbox.style.borderColor = 'red';
+            } else {
+              textbox.style.borderColor = ''; // Reset border color
+            }
+          }
+        </script>
+
+
+
+
+
+
 
         <button id="'btnSubmit" class="btn-primary" onCLick="getData();">Submit My Info</button>
        </form>
