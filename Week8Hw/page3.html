@@ -4,12 +4,12 @@
 <script>
     function getData()
     {
-        var name =document.getElementById("name").value;
-        var phone = document.getElementById("phone").value;
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
         
         
         
-        window.alert('Hello there! Please enter your information!');
+        window.alert("Hello there! Please enter your information!");
 
         }
 </script>
@@ -19,9 +19,9 @@
        <h3>What is your contact information?</h3>
        <br>
        <form style="background-color:lightpink">
-        <input type="text" value=" " id="name">name<br>
-        <input type="text" value=" " id="phone">phone<br>
-
+        <input type="text" value=" " id="Name">Name<br>
+        <input type="text" value=" " id="Email">Email<br>
+        <input type="checkbox" value="Terms of Agreement">Terms of Agreement<br>
         <button id="'btnSubmit" class="btn-primary" onCLick="getData();">Submit My Info</button>
        </form>
        <br>
