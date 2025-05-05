@@ -5,13 +5,21 @@ Echoes of Light is a 2D minimalist puzzle game where players control a beam of l
 ## Table of Contents
 
 -Introduction
+
 -Game Design
+
 -Development Process
+
 -Initial Concept
+
 -Gameplay Mechanics
+
 -Challenges
+
 -Solutions
+
 -Final Product
+
 -Future Improvements
 
 ----------------------------------------------------------------------------
