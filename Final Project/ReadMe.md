@@ -58,6 +58,7 @@ Initially, I focused on the core gameplay loop: the player would rotate mirrors 
 
 ## Solutions
 ---- Reflection Accuracy: After several iterations, I used vector mathematics to calculate the reflection of the beam based on the angle of incidence. This allowed the light beam to reflect realistically off the mirrors.
+
 ---- Level Balancing: I carefully adjusted the number of mirrors, their angles, and the distance to the target in each level. Gradually increasing the difficulty allowed the player to feel challenged without becoming frustrated.
 
 ----------------------------------------------------------------------------
@@ -70,8 +71,11 @@ The final version of "Echoes of Light" includes three levels, each with increasi
 
 ## Key Features:
 ---- Minimalist Visuals: The game has a stripped-down aesthetic, focusing on contrast between the light beam and the dark environment.
+
 ---- Engaging Puzzle Design: Each level offers a unique puzzle that gradually increases in difficulty.
+
 ---- Smooth Level Progression: The game introduces new mechanics and obstacles as the player advances.
+
 ---- Calming Atmosphere: The soundtrack and minimalistic design aim to create a meditative experience for the player.
 
 ----------------------------------------------------------------------------
@@ -88,6 +92,9 @@ Created a calm, meditative atmosphere that complements the puzzle-solving experi
 While the game is functional and enjoyable, there are several areas for potential improvement:
 
 ---- Additional Levels: Adding more levels and varying types of mirrors would increase the game's replayability.
+
 Advanced Mechanics: Introducing new mechanics, such as movable mirrors or more complex environments, could provide new challenges for the player.
+
 ---- Visual Enhancements: Adding subtle animations or particle effects could make the game feel more dynamic without compromising its minimalist style.
+
 ---- Sound Effects: More dynamic sound effects that react to player actions (e.g., beam reflections, mirror rotations) could enhance the immersive experience.
